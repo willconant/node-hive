@@ -4,7 +4,6 @@
 
 var sys = require('sys');
 var querystring = require('querystring');
-var underscore = require('./underscore');
 
 exports.createHive = function(cmd, cmd_args) {
 	return new Hive(cmd, cmd_args);
